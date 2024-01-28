@@ -55,7 +55,7 @@ class MultimodalModel(nn.Module):
 # 模型超参数
 text_input_dim = 10000  # 词汇表大小
 image_input_dim = 1024  # 图像特征维度
-output_dim = 5
+output_dim = 4
 
 # 创建模型、损失函数和优化器
 model = MultimodalModel(text_input_dim, image_input_dim, output_dim)
